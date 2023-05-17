@@ -69,7 +69,7 @@
     text-align: center;
 }
 
-.donate h2 {
+.donate h2, .donation-plan h2 {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -97,7 +97,37 @@
     font-weight: 700;
 }
 
+/* donate plan */
 
+.donation-plan {
+    text-align: center;
+}
+
+.donation-plan .plans-group {
+    display: flex;
+    gap: 30px;
+    margin: 50px 0 100px;
+}
+
+.plans-group .plan-item {
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.plans-group .one {
+    background-color: aliceblue;
+}
+.plans-group .two {
+    background-color: lavenderblush;
+}
+.plans-group .three {
+    background-color: bisque;
+}
+
+.plans-group .plan-item h4 {
+    line-height: 45px;
+}
 
 
 
